@@ -1,0 +1,5 @@
+create table apocalypso_score (SNo INT NOT NULL AUTO_INCREMENT PRIMARY KEY, TeamNo INT, L1 INT, L2 INT, L3 INT, Money INT);
+
+create table complaints_h5 (SNo INT NOT NULL AUTO_INCREMENT PRIMARY KEY, ldap VARCHAR(255), rollno VARCHAR(255), roomno INT, category VARCHAR(15), concern VARCHAR(15), subject VARCHAR(255), message VARCHAR(255), status INT, comment VARCHAR(255), ip VARCHAR(15), timestamp INT);
+
+create table apocalypso_rates (Resource VARCHAR(255), Rate INT);

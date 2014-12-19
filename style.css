@@ -1,0 +1,74 @@
+
+html, textarea {
+	font: 100% arial, helvetica, sans-serif;
+}
+
+body{
+	padding: 0px;
+}
+
+.separator {
+	background-color: #dddddd;
+	width: 40px ;
+}
+
+#backimg{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	min-height: 600px;
+	height: 100%;
+	width: 100%;
+}
+
+#login_box{
+        width: 210px;
+        background-color: #1c1c1c;
+        padding: 10px;
+        position: absolute;
+        color: white;
+        left: 100px;
+        top: 120px;
+        border: red 2px solid;
+}
+
+td,th{
+	border: solid 1px black;
+	min-width: 50px ;
+}
+table{
+	border-collapse: collapse;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select {
+	outline:0 ;
+	margin:0;
+	padding:5px ;
+	border:1px solid silver;
+	height:30px ;
+}
+
+input[type="submit"] {
+	height: 35px ;
+	width:150px;	
+}
+
+
+#header{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: #1c1c1c;
+	color: white;
+	font-family: sans-serif;
+	margin: 0px;
+	border-bottom: red 2px solid;
+}
+#footer{
+	position: fixed;
+	bottom: 3px;
+	left: 3px;
+	font-size: 17px;
+}
